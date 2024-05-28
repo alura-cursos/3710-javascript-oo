@@ -8,10 +8,6 @@ export default class Admin extends User {
   criarCurso(nomeCurso, qtdVagas) {
     return `curso ${nomeCurso} criado com ${qtdVagas} vagas.`
   }
-
-  exibeNome() {
-    // return `${this.#nome}`
-  }
 }
 
 // console.log(novoAdmin.criarCurso('JavaScript', 20));

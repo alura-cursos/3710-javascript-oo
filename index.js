@@ -11,5 +11,5 @@ console.log(novoUser.exibirInfos());
 // console.log(novoUser.#nome);
 
 const novoAdmin = new Admin("Rodrigo", "r@r.com", "2024-01-01")
-console.log(novoAdmin.exibirInfos());
-console.log(novoAdmin.exibeNome());
+console.log(novoAdmin.nome);
+// console.log(novoAdmin.exibeNome());

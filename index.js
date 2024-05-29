@@ -8,3 +8,5 @@ console.log(novoUser.exibirInfos());
 const novoAdmin = new Admin("Rodrigo", "r@r.com", "2024-01-01")
 console.log(novoAdmin.exibirInfos());
 
+const novaDocente = new Docente("Ana", "a@a.com", "2024-01-01")
+console.log(novaDocente.exibirInfos());
